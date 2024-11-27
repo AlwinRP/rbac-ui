@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const Role = require('./role'); // Ensure Role model is imported
 
 const userSchema = new mongoose.Schema({
