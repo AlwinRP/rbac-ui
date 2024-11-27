@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { font-size: 18px; /* This should match the base font size from your Tailwind config */ 
+}
