@@ -24,7 +24,8 @@ mongoose.connect(process.env.MONGO_URI , {
 .catch((err) => console.error('Could not connect to MongoDB',err));
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://rbac-client.vercel.app/'], // Replace this with your frontend URL
+    origin: ['http://localhost:3000', 'https://rbac-client.vercel.app/'],// Replace this with your frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     optionsSuccessStatus: 200
 };
 
