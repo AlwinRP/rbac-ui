@@ -1,7 +1,7 @@
 # rbac-ui
  
-To visit the deployed site visit - https://rbac-client.vercel.app/
-(refresh the page if no changes is seen on any action)
+To view the deployed site visit - https://rbac-client.vercel.app/
+(refresh the page if no changes are seen on any action)
 
 This repository contains the frontend and backend components of the application. Follow the instructions below to set up and run the project on your local machine.
 
